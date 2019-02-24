@@ -54,3 +54,5 @@ gradle-app.setting
 
 
 *.DS_Store
+
+.idea/encodings.xml
