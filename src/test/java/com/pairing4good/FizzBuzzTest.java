@@ -8,38 +8,38 @@ public class FizzBuzzTest {
 
     @Test
     public void whenFizzBuzzIsPassedNumberOneItReturnsNumberOne(){
-        FizzBuzz johnSagar = new FizzBuzz();
-        assertEquals("1", johnSagar.fizz(1));
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("1", fizzBuzz.fizz(1));
     }
 
     @Test
     public void whenFizzBuzzIsPassedNumberTwoItReturnsNumberTwo(){
-        FizzBuzz johnSagar = new FizzBuzz();
-        assertEquals("2", johnSagar.fizz(2));
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("2", fizzBuzz.fizz(2));
     }
 
     @Test
     public void whenFizzBuzzIsPassedNumberThreeReturnFizz(){
-        FizzBuzz johnSagar = new FizzBuzz();
-        assertEquals("fizz", johnSagar.fizz(3));
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("fizz", fizzBuzz.fizz(3));
     }
 
     @Test
     public void whenFizzBuzzIsPassedNumberSixReturnFizz(){
-        FizzBuzz johnSagar = new FizzBuzz();
-        assertEquals("fizz", johnSagar.fizz(6));
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("fizz", fizzBuzz.fizz(6));
     }
 
     @Test
     public void whenFizzBuzzIsPassedMultipleOfFiveReturnBuzz(){
-        FizzBuzz johnSagar = new FizzBuzz();
-        assertEquals("buzz", johnSagar.fizz(5));
-        assertEquals("buzz", johnSagar.fizz(10));
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("buzz", fizzBuzz.fizz(5));
+        assertEquals("buzz", fizzBuzz.fizz(10));
     }
 
     @Test
     public void whenFizzBuzzIsPassedMultipleOfThreeAndFiveReturnFizzBuzz(){
-        FizzBuzz johnSagar = new FizzBuzz();
-        assertEquals("fizzbuzz", johnSagar.fizz(15));
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("fizzbuzz", fizzBuzz.fizz(15));
     }
 }
