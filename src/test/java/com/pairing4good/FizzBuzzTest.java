@@ -29,10 +29,17 @@ public class FizzBuzzTest {
         FizzBuzz johnSagar = new FizzBuzz();
         assertEquals("fizz", johnSagar.fizz(6));
     }
+
     @Test
-    public void whenFizzBuzzIsPassedNumberFiveReturnBuzz(){
+    public void whenFizzBuzzIsPassedMultipleOfFiveReturnBuzz(){
         FizzBuzz johnSagar = new FizzBuzz();
         assertEquals("buzz", johnSagar.fizz(5));
         assertEquals("buzz", johnSagar.fizz(10));
+    }
+
+    @Test
+    public void whenFizzBuzzIsPassedMultipleOfThreeAndFiveReturnFizzBuzz(){
+        FizzBuzz johnSagar = new FizzBuzz();
+        assertEquals("fizzbuzz", johnSagar.fizz(15));
     }
 }
